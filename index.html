@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <header>
+                <div class="yellow"></div>
+                <h2>To-Do List</h2>
+            </header>
+            <div class="sorting">
+                <button class="sort-btn" type="submit">
+                    <img class="sort" src=".//sort.svg" alt="sort">
+                    <img class="hover-sort hidden" src=".//hoverSort.svg" alt="sort-hover">
+                    <img class="reverse hidden" src=".//reverse.svg" alt="reverse">
+                    <img class="reverse-hover hidden" src=".//hoverReverse.svg" alt="reverse-hover">
+                </button>
+            </div>
+            <div class="input">
+                <input class="item" type="text">
+                <button type="submit" class="x">
+                    <img src=".//xbutton.svg" alt="xbutton">
+                </button>
+            </div>
+            <div class="task-list hidden"></div>
+            <div class="add">
+                    <button class="plus">+</button>
+                    <button class="addText">Add</button>
+            </div>
+        </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+
+</html>
